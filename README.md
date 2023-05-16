@@ -1,5 +1,8 @@
 # Quarkus Best Practices
 
+Quarkus is a Java framework tailored for deployment on Kubernetes.
+These tips are based on Quarkus documentation, books, articles and professional experience.
+
 ## Table of Contents
 
 1. [Follow code conventions](#follow-code-conventions)
@@ -304,6 +307,21 @@ You can run those tests from the [Dev UI](https://quarkus.io/guides/dev-ui) cons
 Also, it provides annotations like `@QuarkusTest` and `@QuarkusIntegrationTest` that control the testing framework.
 You can read [Testing Your Application](https://quarkus.io/guides/getting-started-testing) guide for more details.
 
-## Notes
+## Bibliography
 
-This document is not finalized.
+- [5 design patterns for microservices with Quarkus and MicroProfile](https://eldermoraes.com/5-design-patterns-for-microservices-with-quarkus-and-microprofile/)
+- [10 Quarkus REST Client Best Practices](https://climbtheladder.com/10-quarkus-rest-client-best-practices/)
+- [Application Data Caching](https://quarkus.io/guides/cache)
+- [Building a Native Executable](https://quarkus.io/guides/building-native-image)
+- [Centralized Error Response Handling and a Custom Error Page in Quarkus](https://marcelkliemannel.com/articles/2021/centralized-error-handling-and-a-custom-error-page-in-quarkus/)
+- [Configuration Reference Guide](https://quarkus.io/guides/config-reference)
+- [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
+- [Quarkus Security overview](https://quarkus.io/guides/security-overview-concept)
+- [Quarkus Tips, Tricks and Techniques](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques/)
+- [Security Tips and Tricks](https://quarkus.io/guides/security-customization)
+- [Simplified Hibernate ORM with Panache](https://quarkus.io/guides/hibernate-orm-panache)
+- [Standardize code formatting with Spotless](https://dev.to/ankityadav33/standardize-code-formatting-with-spotless-2bdh)
+- [Testing Your Application](https://quarkus.io/guides/getting-started-testing)
+- [Unused Beans and Why We Remove Them](https://quarkus.io/blog/unused-beans/)
+- [Using OpenAPI and Swagger UI](https://quarkus.io/guides/openapi-swaggerui)
+- [Validation with Hibernate Validator](https://quarkus.io/guides/validation)
