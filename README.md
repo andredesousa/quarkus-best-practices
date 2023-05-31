@@ -76,7 +76,8 @@ If you want to disable all Dev Services you can use the `quarkus.devservices.ena
 Quarkus has a very active and expanding ecosystem with hundreds of extensions available.
 Think of [Quarkus extensions](https://quarkus.io/extensions/) as your project dependencies.
 Quarkus's mission is to transform your entire application including the libraries it uses, into an artifact that uses significantly less resources than traditional approaches.
-These can then be used to build native applications using GraalVM. Quarkus extensions configure, boot and integrate a framework or technology into your Quarkus application.
+Quarkus extensions configure, boot and integrate a framework or technology into your Quarkus application.
+You can use [code.quarkus.io](https://code.quarkus.io/) to help you create a new Quarkus project and choose possible dependencies according to your needs.
 
 ## Use OpenAPI and Swagger UI
 
