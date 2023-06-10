@@ -117,7 +117,7 @@ See the code snippet of a resource:
 @Path("/user")
 public class UserResource {
     @Inject
-    protected UserService userService;
+    UserService userService;
 
     @GET
     public List<User> findAll() {
@@ -137,7 +137,7 @@ See the code snippet of a service:
 @ApplicationScoped
 public class UserService {
     @Inject
-    protected UserRepository userRepository;
+    UserRepository userRepository;
 
     public List<User> findAll() {
         return userRepository.listAll();
